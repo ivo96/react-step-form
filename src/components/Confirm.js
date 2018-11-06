@@ -30,19 +30,19 @@ export class Confirm extends Component {
           <List>
               <ListItem 
                   primaryText="First Name"
-                  secondaryText= {firstName}
+                  secondaryText={firstName}
               />
               <ListItem 
                   primaryText="Last Name"
-                  secondaryText= {lastName}
+                  secondaryText={lastName}
               />
               <ListItem 
                   primaryText="Email"
-                  secondaryText= {email}
+                  secondaryText={email}
               />
               <ListItem 
                   primaryText="Occupation"
-                  secondaryText= {occupation}
+                  secondaryText={occupation}
               />
               <ListItem 
                   primaryText="City"
@@ -50,7 +50,7 @@ export class Confirm extends Component {
               />
               <ListItem 
                   primaryText="Bio"
-                  secondaryText= {bio}
+                  secondaryText={bio}
               />
           </List>
           <RaisedButton 
